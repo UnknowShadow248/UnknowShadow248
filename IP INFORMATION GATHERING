@@ -1,0 +1,9 @@
+clear
+echo "
+Derechos de autor:UNKNOWSHADOW                 coded by UNKNOWSHADOW"
+echo ""
+
+read -p "ingrese la direccion ip >>" ip
+curl -s http://ip-api.com/$ip
+echo ""
+echo "Operacion completada."
